@@ -1,5 +1,5 @@
 --
---	See query57.sql for get_ddl
+--	2015 Oct 30 Created at 17:11
 --
 set pagesize 40
 set linesize 80
@@ -13,8 +13,8 @@ variable vc_own_name varchar2(30) ;
 
 begin
  :vc_obj_type := 'TABLE' ;
- :vc_obj_name := 'IPNMS_PORT_PERF_PMETL_5MIN' ;
- :vc_own_name := 'LGU_DATACOLLECTOR' ;
+ :vc_obj_name := 'TABLE11' ;
+ :vc_own_name := 'USER11' ;
 end ;
 /
 show error
