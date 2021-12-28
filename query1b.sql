@@ -1,9 +1,8 @@
 --
 --	$ORACLE_HOME/rdbms/admin/utldtree
 --	115767.1
+--	2014 Oct 02 Created at 17:53
 --
-
---connect
 
 variable	vc_type	varchar2(19)	;
 variable	vc_schema	varchar2(30)	;
