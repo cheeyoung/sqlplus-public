@@ -1,6 +1,7 @@
-/*
-	retention_(type|value) columns are available from 11.2.0.2
-*/
+--
+--	2019 Dec 30 15:36 retention_(type|value) columns are available from 11.2.0.2
+--	2014 Mar 25 Created at 14:09
+--
 set	pagesize 40
 set	linesize 80
 
@@ -10,9 +11,9 @@ variable	vc_col_name	varchar2(4000)	;
 variable	vc_seg_name	varchar2(30)	;
 
 begin
- :vc_own_name := 'SFM_MGR' ;
- :vc_tab_name := 'LIB_DATA' ;
- :vc_seg_name := 'SL_ALL_TLGM' ;
+ :vc_own_name := '' ;
+ :vc_tab_name := '' ;
+ :vc_seg_name := '' ;
 end	;
 /
 print	:vc_own_name	:vc_seg_name
@@ -34,7 +35,7 @@ FROM v$database
 
 show parameter undo
 
---desc LIB_DATA
+--desc 
 
 SELECT owner
 , table_name
@@ -63,7 +64,6 @@ WHERE owner = :vc_own_name
 --AND	segment_name = :vc_seg_name
 AND	table_name = :vc_tab_name
 /
-
 
 SELECT table_owner
 , table_name
