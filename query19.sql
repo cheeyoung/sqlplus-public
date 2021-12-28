@@ -1,9 +1,6 @@
 --
---	See query5s.sql for v$sqltext
---	See query57.sql for get_ddl
+-- 2013 Nov 07 Created at 14:23
 --
-connect	/ as sysdba
-
 set pagesize 40
 set linesize 80
 
@@ -11,11 +8,10 @@ variable vc_owner varchar2(128) ;
 variable vc_obj_name varchar2(128) ;
 variable vc_obj_type varchar2(12) ;
 
-
 begin
- :vc_owner := 'MDSYS' ;
- :vc_obj_name := 'SDO_RELATE' ;
- :vc_obj_type := 'OPERATOR' ;
+ :vc_owner := '' ;
+ :vc_obj_name := '' ;
+ :vc_obj_type := '' ;
 end ;
 /
 show error
@@ -55,8 +51,8 @@ set	pagesize	0
 set	heading	off
 set	linesize	4000
 
-SELECT	line , text
---SELECT	text
+SELECT	text
+--SELECT	line , text
 FROM	dba_source
 WHERE	owner = :vc_owner
 AND	type = :vc_obj_type
