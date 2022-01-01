@@ -66,6 +66,7 @@ FROM dba_tab_histograms
 WHERE owner = :vc_own_name
 AND table_name = :vc_tab_name
 AND column_name = :vc_col_name
+ORDER BY endpoint_number
 /
 
 SELECT owner
