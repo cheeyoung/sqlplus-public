@@ -1,17 +1,15 @@
 set pagesize 40
 set linesize 80
 
---connect sh/sh
-
 variable vc_own_name varchar2(30) ;
 variable vc_tab_name varchar2(30) ;
 variable vc_part_name varchar2(30) ;
 variable vc_col_name varchar2(4000) ;
 
 begin
- :vc_own_name := 'EZMES' ;
- :vc_tab_name := 'TB_SFU_LCA_UNIT_CHG_RPT' ;
- :vc_col_name := 'ACTDTTM' ;
+ :vc_own_name := '' ;
+ :vc_tab_name := '' ;
+ :vc_col_name := '' ;
 end ;
 /
 show error
@@ -19,7 +17,7 @@ show error
 alter session set NLS_DATE_FORMAT = 'YYYY-MM-DD HH24:MI:SS'
 /
 
-spool query3l.out
+spool query3L.out
 
 SELECT sysdate
 FROM dual
