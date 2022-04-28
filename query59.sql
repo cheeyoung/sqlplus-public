@@ -1,9 +1,9 @@
-set pagesize 40
-set linesize 80
-
 --
 -- Please, see query57.sql for dba_hist_sqlstat
+-- 18 Dec 2015 Created at 10:12
 --
+set pagesize 40
+set linesize 80
 
 alter session set NLS_DATE_FORMAT = 'YYYY-MM-DD HH24:MI:SS'
 /
