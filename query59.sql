@@ -1,5 +1,5 @@
 --
--- Please, see query57.sql for dba_hist_sqlstat
+-- Please, see query58.sql for dba_hist_sqlstat
 -- 18 Dec 2015 Created at 10:12
 --
 set pagesize 40
