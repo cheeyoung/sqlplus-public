@@ -1,8 +1,7 @@
---
--- 13 Dec 2017 Created at 17:00
---
 set pagesize 40
 set linesize 80
+
+--connect / as sysdba
 
 alter session set NLS_DATE_FORMAT = 'YYYY-MM-DD HH24:MI:SS'
 /
@@ -11,7 +10,7 @@ variable vc_sql_id varchar2(13) ;
 variable vc_sql_text varchar2(1000) ;
 
 begin
- :vc_sql_id := '' ;
+ :vc_sql_id := '520mkxqpf15q8' ;
 end ;
 /
 show error
@@ -40,7 +39,7 @@ FROM v$instance
 SELECT sql_id
 , sql_text
 FROM v$sqlarea
-WHERE sql_text LIKE '%%'
+WHERE sql_text LIKE '%WRK_RCP_NO%'
 /
 
 SELECT sql_id
