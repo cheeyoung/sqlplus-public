@@ -1,5 +1,6 @@
---connect / as sysdba
-
+--
+-- 01 Apr 2014 Created at 16:11
+--
 set pagesize 40
 set linesize 80
 
