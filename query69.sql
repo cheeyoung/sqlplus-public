@@ -1,10 +1,9 @@
 --
 --	for v$sqlarea, See query2a.sql
+-- 12 Dec 2018 Created at 17:38
 --
 set pagesize 40
 set linesize 80
-
---connect / as sysdba
 
 alter session set NLS_DATE_FORMAT = 'YYYY-MM-DD HH24:MI:SS'
 /
