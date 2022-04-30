@@ -1,3 +1,6 @@
+--
+-- 27 Mar 2014 Created at 15:11
+--
 set pagesize 40
 set linesize 80
 
@@ -11,7 +14,6 @@ ALTER SESSION set NLS_DATE_FORMAT = 'YYYY-MM-DD HH24:MI:SS'
 /
 
 spool query09.out
--- append
 
 print :n_sid
 
