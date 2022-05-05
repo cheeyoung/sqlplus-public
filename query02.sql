@@ -1,3 +1,6 @@
+--
+-- 10 July 2013 Updated at 17:55
+--
 set linesize 80
 set pagesize 40
 
@@ -34,7 +37,7 @@ SELECT instance_number , instance_name , instance_role
 FROM v$instance
 /
 
-desc MSPS.PS_SALETRAN_DTL
+--desc MSPS.PS_SALETRAN_DTL
 
 SELECT *
 FROM dba_objects
