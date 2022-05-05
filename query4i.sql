@@ -1,7 +1,8 @@
+--
+-- 15 Oct 2014 Created at 16:51
+--
 set	pagesize	40
 set	linesize	80
-
---connect	/ as sysdba
 
 variable	vc_column_name	varchar2(30)	;
 variable	vc_index_name	varchar2(30)	;
