@@ -1,13 +1,15 @@
 --
--- 06 Feb 2017 Created at 14:15
+-- See query19.sql for dba_source
 --
+--connect / as sysdba
+
 set pagesize 40
 set linesize 80
 
 variable vc_sql_id varchar2(128) ;
 
 begin
- :vc_sql_id := '' ;
+ :vc_sql_id := '9dgtchnb4nzu3' ;
 end ;
 /
 show error
