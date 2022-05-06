@@ -1,7 +1,6 @@
 --
--- See query19.sql for dba_source
+-- 06 Feb 2017 Created at 14:15
 --
---connect / as sysdba
 
 set pagesize 40
 set linesize 80
