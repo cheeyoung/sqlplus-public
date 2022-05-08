@@ -1,11 +1,9 @@
-/*
- v$_sequences
- seq$
-*/
+--
+-- 14 Nov 2014 Updated at 21:51
+-- seq$ and v$_sequences
+--
 set linesize 80
 set pagesize 40
-
---connect / as sysdba
 
 variable n_obj number ;
 
