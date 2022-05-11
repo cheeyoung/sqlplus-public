@@ -1,7 +1,9 @@
+--
+-- 29 Oct 2013 Updated at 16:43 in query18.sql
+-- 15 Dec 2011 Created at 14:48 as query0W.sql
+-- 
 set pagesize 40
 set linesize 80
-
---connect 
 
 variable vc_own_name varchar2(30) ;
 variable vc_obj_name varchar2(128) ;
@@ -20,7 +22,6 @@ show error
 alter session set NLS_DATE_FORMAT = 'YYYY-MM-DD HH24:MI:SS'
 /
 spool	query2h.out
---	append
 
 print	:vc_own_name	:vc_obj_name
 --print	:n_obj_id	:n_data_obj_id
