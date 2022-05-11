@@ -1,13 +1,13 @@
+--
+-- 14 July 2014 Created at 17:51
+--
 set	pagesize	40
 set	linesize	80
-
---connect	/ as sysdba
 
 alter session set NLS_DATE_FORMAT = 'YYYY-MM-DD HH24:MI:SS'
 /
 
 spool	query49.out
---	append
 
 SELECT	sysdate
 FROM	dual
