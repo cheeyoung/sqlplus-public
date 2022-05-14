@@ -1,7 +1,9 @@
+--
+-- 02 Dec 2014 Updated at 10:28
+-- 
+--
 set	pagesize	40
 set	linesize	80
-
-connect	/ as sysdba
 
 alter session set NLS_DATE_FORMAT = 'YYYY-MM-DD HH24:MI:SS'
 /
