@@ -1,0 +1,87 @@
+
+SYSDATE                                                                         
+-------------------                                                             
+2013-10-26 06:46:17                                                             
+
+
+      DBID NAME      DB_UNIQUE_NAME                 CREATED                     
+---------- --------- ------------------------------ -------------------         
+PLATFORM_NAME                                                                   
+--------------------------------------------------------------------------------
+1454429917 TARCO     TARCO                          2013-10-23 11:50:53         
+Linux x86 64-bit                                                                
+                                                                                
+
+
+ENDIAN_FORMAT                                                                   
+--------------                                                                  
+SUBSTR(PLATFORM_NAME,1,33)                                                      
+------------------------------------------------------------------              
+Big                                                                             
+AIX-Based Systems (64-bit)                                                      
+                                                                                
+Big                                                                             
+Apple Mac OS                                                                    
+                                                                                
+Big                                                                             
+HP-UX (64-bit)                                                                  
+                                                                                
+Big                                                                             
+HP-UX IA (64-bit)                                                               
+                                                                                
+Big                                                                             
+IBM Power Based Linux                                                           
+                                                                                
+Big                                                                             
+IBM zSeries Based Linux                                                         
+                                                                                
+Big                                                                             
+Solaris[tm] OE (32-bit)                                                         
+                                                                                
+Big                                                                             
+Solaris[tm] OE (64-bit)                                                         
+                                                                                
+Little                                                                          
+Apple Mac OS (x86-64)                                                           
+                                                                                
+Little                                                                          
+HP IA Open VMS                                                                  
+                                                                                
+Little                                                                          
+HP Open VMS                                                                     
+                                                                                
+Little                                                                          
+HP Tru64 UNIX                                                                   
+
+ENDIAN_FORMAT                                                                   
+--------------                                                                  
+SUBSTR(PLATFORM_NAME,1,33)                                                      
+------------------------------------------------------------------              
+                                                                                
+Little                                                                          
+Linux IA (32-bit)                                                               
+                                                                                
+Little                                                                          
+Linux IA (64-bit)                                                               
+                                                                                
+Little                                                                          
+Linux x86 64-bit                                                                
+                                                                                
+Little                                                                          
+Microsoft Windows IA (32-bit)                                                   
+                                                                                
+Little                                                                          
+Microsoft Windows IA (64-bit)                                                   
+                                                                                
+Little                                                                          
+Microsoft Windows x86 64-bit                                                    
+                                                                                
+Little                                                                          
+Solaris Operating System (x86)                                                  
+                                                                                
+Little                                                                          
+Solaris Operating System (x86-64)                                               
+                                                                                
+
+20 rows selected.
+
