@@ -1,7 +1,9 @@
+--
+-- 13 Apr 2017 Updated at 16:45
+-- 21 Mar 2014 Created at 17:42
+--
 set	pagesize	40
 set	linesize	80
-
---connect	
 
 variable	n_scn	number	;
 
@@ -24,7 +26,7 @@ end	;
 /
 show	error
 
-spool	query3w.out	append
+spool	query3w.out
 
 print	:n_scn
 
