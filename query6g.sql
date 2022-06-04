@@ -1,7 +1,7 @@
 --
 -- For DISPLAY_CURSOR, See query6b.sql
--- 
-
+-- 11 Feb 2020 Created at 17:19
+--
 variable vc_sql_id varchar2(13) ;
 variable n_plan_hv number ;
 variable n_db_id number ;
