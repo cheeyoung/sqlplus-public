@@ -1,7 +1,8 @@
-/*
-	For v$pgastat and v$workarea, See query43.sql
-	For v$sgastat, See query4c.sql
-*/
+--
+-- For v$pgastat and v$workarea, See query43.sql
+-- For v$sgastat, See query4c.sql
+-- 18 Nov 2019 Created at 15:37
+--
 set pagesize 40
 set linesize 80
 
