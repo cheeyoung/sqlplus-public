@@ -1,6 +1,8 @@
-/*	315631.1
-*/
---connect	/ as sysdba
+--
+-- 315631.1
+-- 25 Feb 2020 Updated at 10:30
+-- 06 Sep 2011 Created at 12:53
+--
 
 alter session set NLS_DATE_FORMAT = 'YYYY-MM-DD HH24:MI:SS'
 /
@@ -8,7 +10,6 @@ set pagesize 40
 set linesize 80
 
 spool query03.out
--- append
 
 SELECT	sysdate
 FROM	dual
