@@ -1,5 +1,6 @@
---connect / as sysdba
-
+--
+-- 01 June 2020 Created at 16:29:54
+--
 set pagesize 40
 set linesize 80
 
