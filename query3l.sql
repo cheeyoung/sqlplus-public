@@ -1,7 +1,9 @@
+--
+-- 19 June 2020 Updated at 14:31:46
+-- 07 Nov 2013 Created at 21:13:44
+--
 set pagesize 40
 set linesize 80
-
---connect sh/sh
 
 variable vc_own_name varchar2(30) ;
 variable vc_tab_name varchar2(30) ;
