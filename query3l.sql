@@ -11,9 +11,9 @@ variable vc_part_name varchar2(30) ;
 variable vc_col_name varchar2(4000) ;
 
 begin
- :vc_own_name := 'EZMES' ;
- :vc_tab_name := 'TB_SFU_LCA_UNIT_CHG_RPT' ;
- :vc_col_name := 'ACTDTTM' ;
+ :vc_own_name := '' ;
+ :vc_tab_name := '' ;
+ :vc_col_name := '' ;
 end ;
 /
 show error
