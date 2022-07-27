@@ -49,7 +49,7 @@ show	error
 alter session set NLS_DATE_FORMAT = 'YYYY-MM-DD HH24:MI:SS'
 /
 
-spool	query07.out	append
+spool	query07.out
 
 SELECT	sysdate
 FROM	dual
