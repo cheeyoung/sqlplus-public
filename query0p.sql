@@ -1,7 +1,9 @@
+--
+-- 30 Jan 2019 Updated at 13:36:06
+--
+--
 set pagesize 40
 set linesize 80
-
---connect / as sysdba
 
 variable vc_owner_name varchar2(30) ;
 variable vc_view_name varchar2(30) ;
