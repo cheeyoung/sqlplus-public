@@ -38,19 +38,17 @@ FROM v$instance
 set	heading	off
 
 SELECT	*
-FROM	dba_objects	
-WHERE	object_name 
-IN 	( 'IHR_THDB_EMP_V' , 'IHR_THDB_ORG_V' )
-AND	owner = :vc_owner_name
+FROM	all_objects	
+WHERE owner = :vc_owner_name
+AND	object_name = :vc_view_name
 /
 
 SELECT	owner
 ,	view_name
 ,	text_length
-FROM	dba_views
-WHERE	view_name 
-IN 	( 'IHR_THDB_EMP_V' , 'IHR_THDB_ORG_V' )
-AND	owner = :vc_owner_name
+FROM	all_views
+WHERE	owner = :vc_owner_name
+AND	view_name = :vc_view_name
 /
 
 set	long	3673
@@ -63,10 +61,9 @@ WHERE	view_name = :vc_view_name
 /
 
 SELECT	text
-FROM	dba_views
-WHERE	view_name 
-IN 	( 'IHR_THDB_EMP_V' , 'IHR_THDB_ORG_V' )
-AND	owner = :vc_owner_name
+FROM	all_views
+WHERE	owner = :vc_owner_name
+AND	view_name = :vc_view_name
 /
 spool	off
 
